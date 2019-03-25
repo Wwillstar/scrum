@@ -3,7 +3,6 @@ import django_filters
 from django.contrib.auth import get_user_model
 from .models import Task,Sprint
 
-
 User = get_user_model()
 
 class SprintFilter(django_filters.FilterSet):
